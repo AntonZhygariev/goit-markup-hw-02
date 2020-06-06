@@ -17,6 +17,46 @@ body {
   list-style: none;
 }
 
+/* Logo */
+.logo {
+  color: var(--logo-color);
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.link {
+  color: var(--title-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.adress-header {
+  color: var(--primary-text-color);
+}
+
+.adress-header:hover,
+.adress-header:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
 /* Цвет основного текста = #212121 */
 /* Цвет вторичный = #757575 */
 /* Лого = #000000 */
