@@ -6,6 +6,11 @@
   --white-color: #ffffff;
   --second-bg-color: #f5f4fa;
   --footer-adress-color: rgba(255, 255, 255, 0.6);
+  --footer-bg-color: #2f303a;
+  --developed-color: rgba(255, 255, 255, 0.4);
+}
+a {
+  text-decoration: none;
 }
 
 body {
@@ -57,10 +62,49 @@ body {
 
 /* main */
 
-/* Цвет основного текста = #212121 */
-/* Цвет вторичный = #757575 */
-/* Лого = #000000 */
-/* акцент = #2196F3 */
-/* белый = #FFFFFF */
-/* фон 2 = #F5F4FA */
-/* подвал прозрачный = rgba(255, 255, 255, 0.6) */
+.hero-text {
+  color: var(--white-color);
+  background-color: black;
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.title-text {
+  color: var(--title-text-color);
+}
+
+.name-capabilities {
+  color: var(--white-color);
+  background-color: black;
+}
+.customer-icon:hover,
+.customer-icon:focus {
+  background-color: var(--accent-color);
+}
+
+/* Footer */
+
+.footer-contact {
+  color: var(--footer-adress-color);
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+  color: var(--white-color);
+}
+
+.develop {
+  color: var(--developed-color);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--accent-color);
+}
