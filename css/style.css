@@ -104,6 +104,10 @@ body {
 .filter-button {
   color: var(--title-text-color);
   background-color: var(--button-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 
 .filter-button:hover,
@@ -123,6 +127,13 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.section-title.font {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .title-text {
@@ -164,6 +175,15 @@ body {
 .full-text-item {
   color: var(--white-color);
   background: var(--text-bg-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.filter-name {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .photo-project:hover,
