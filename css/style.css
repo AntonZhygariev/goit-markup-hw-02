@@ -28,14 +28,6 @@ body {
 
 /* Logo */
 .logo {
-  color: var(--logo-color);
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
-.logo-color {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -43,10 +35,22 @@ body {
   line-height: 1.2;
 }
 
-.logo:hover,
+.logo-header {
+  color: var(--logo-color);
+  /* font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2; */
+}
+
+.logo-footer {
+  color: var(--white-color);
+}
+
+/* .logo:hover,
 .logo:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Site nav */
 
@@ -133,7 +137,8 @@ body {
   text-align: center;
 }
 
-.section-title.font {
+.title-font {
+  color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -148,7 +153,8 @@ body {
   text-transform: uppercase;
 }
 
-.title-text.font {
+.team-name {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
