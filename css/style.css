@@ -88,7 +88,6 @@ body {
 
 .hero-text {
   color: var(--white-color);
-  background-color: black;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -139,7 +138,6 @@ body {
 
 .title-font {
   color: var(--title-text-color);
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -191,18 +189,20 @@ body {
 }
 
 .filter-name {
+  color: var(--primary-text-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
 }
 
-.photo-project:hover,
+/* .photo-project:hover,
 .photo-project:focus {
   background: var(--text-bg-color);
-}
+  color: var(--accent-color);
+} */
+
 .name-capabilities {
   color: var(--white-color);
-  background-color: black;
 }
 .customer-icon:hover,
 .customer-icon:focus {
